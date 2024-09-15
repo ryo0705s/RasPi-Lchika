@@ -8,17 +8,17 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 # GPIO17を出力モード設定
-GPIO.setup(27, GPIO.OUT)
+GPIO.setup(17, GPIO.OUT)
 
 while True:
   # GPIO17の出力を1にして、LED点灯
-  GPIO.output(27, 1)
+  GPIO.output(17, 1)
 
   # 0.5秒待つ
   time.sleep(0.5)
 
   # GPIO17の出力を0にして、LED消灯
-  GPIO.output(27, 0)
+  GPIO.output(17, 0)
 
   # 0.5秒待つ
   time.sleep(0.5)
