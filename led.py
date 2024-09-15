@@ -8,7 +8,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 # GPIO17を出力モード設定
-GPIO.setup(17, GPIO.OUT)
+GPIO.setup(27, GPIO.OUT)
 
 while True:
   # GPIO17の出力を1にして、LED点灯
